@@ -1,0 +1,27 @@
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+	  #chat-box{
+  height 50pxl;
+  width 75px;
+  background-color:black;
+  color: red;
+  position: fixed;
+  bottom: 5%;
+  right:0px;
+z-index: 1}
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+      /* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}  }
+      }
